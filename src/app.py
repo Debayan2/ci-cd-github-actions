@@ -1,4 +1,5 @@
-from src.app import hello_world
+def hello_world():
+    return "Hello, GitHub Actions!"
 
-def test_hello():
-    assert hello_world() == "Hello, GitHub Actions!"
+if __name__ == "__main__":
+    print(hello_world())
